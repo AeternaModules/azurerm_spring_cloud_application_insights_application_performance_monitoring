@@ -17,7 +17,7 @@ EOT
     name                         = string
     spring_cloud_service_id      = string
     connection_string            = optional(string)
-    globally_enabled             = optional(bool, false)
+    globally_enabled             = optional(bool) # Default: false
     role_instance                = optional(string)
     role_name                    = optional(string)
     sampling_percentage          = optional(number)
